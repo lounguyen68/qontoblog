@@ -1,0 +1,221 @@
+
+.navbar {
+    background-color: rgba(255,234,221,255);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border: 1px solid silver;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar-items {
+    display: flex;
+    overflow: hidden;
+}
+.navbar-item-logo {
+    padding-left: 20px;
+}
+.navbar-item-logo > img {
+    width: 85px;
+    height: 24px;
+}
+.navbar-search-input {
+    height: 24px;
+    max-width: 90px;
+    border-style: hidden;
+    background-color: rgba(255,234,221,255);
+}
+.navbar-list {
+    padding: 8px 16px;
+}
+.navbar-search-icon  {
+    height: 24px;
+    width: 24px;
+}
+.navbar-items-search {
+    justify-content: flex-end;
+}
+
+.navbar-items-link {
+    justify-content: center;
+}
+.navbar-items-link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.navbar-item-background {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    padding: 32px;
+    padding-right: 64px;
+    padding-bottom: 16px;
+    border-radius: 7px;
+    border: 1px solid silver;
+    background-color: #fff;
+    top: 70px;
+}
+.navbar-list:hover {
+    cursor: pointer;
+}
+.navbar-list:hover > .navbar-item-background {
+    display: block;
+}
+.navbar-list-item {
+    padding: 16px;
+    
+}
+.navbar-list-item:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+
+.header {
+    background-color: rgba(255,234,221,255);
+    padding: 80px;
+}
+.header-image > img{
+    width: 100%;
+}
+.header-container-content {
+    display: flex;
+}
+.header-container-subcontent {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    align-self: flex-end;
+}
+.header-container-title-name {
+    font-size: 16px;
+    align-self: flex-end;
+}
+.header-container-time {
+    font-size: 14px;
+    align-self: flex-end;
+}
+.header-container-author {
+    font-size: 14px;
+    align-self: flex-start;
+}
+.container-link {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.container {
+    margin: 80px 20px 0;
+    justify-content: center;
+}
+.container-post-img > img {
+    width: 100%;
+}
+
+.container-title-name {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.container-title-name-2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.container-title-subname {
+    font-size: 18px;
+    margin: 32px;
+}
+.container-title-subname-2 {
+    font-size: 18px;
+    margin: 0 0 16px;
+    text-align: center;
+}
+.container-posts{
+    margin-bottom: 80px;
+}
+.container-post-category, .container-post-author{
+    font-size: 12px;
+}
+.container-post-title {
+    font-size: 24px;
+}
+.container-category-items {
+
+}
+.container-category-item {
+    
+    padding: 16px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    text-align: center;
+    
+}
+.container-category-item-img {
+    margin-bottom: 24px;
+}
+.container-category-item-img > img {
+    width: 100%;
+}
+.container-category-item-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.container-category-item-subname {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.container-trial {
+    position: relative;
+    padding: 40px;
+    margin-bottom: 100px;
+    
+}
+.container-trial-2 {
+    position: relative;
+    padding: 40px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.container-trial-img {
+    position: absolute;
+    top: -50px;
+}
+.container-trial-img > img {
+    width: 100%;
+}
+.footer {
+    background-color:
+}
+.footer-download-logo {
+    max-width: 180px;
+}
+.footer-download-logo > img{
+    width: 100%;
+}
+.footer-download-sub, .footer-download-icon {
+    font-size: 18px;
+    margin: 32px;
+}
+.footer-social {
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-social > i {
+    font-size: 30px;
+    padding: 5px;
+    
+}
+.footer-social > img {
+    width: 10%;
+    padding: 5px;
+}

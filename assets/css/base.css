@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* font-size: 62.5%; */
+    line-height: 1.8rem;
+    font-family:PolySans,sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #000;
+    height: 48px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 24px;
+    text-align: center;
+    justify-content: center;
+}
+.btn-primary:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.scale {
+    transition: transform .2s;
+}
+.scale:hover {
+    transform: scale(1.05);
+}
+.bg-purple {
+    background-color: rgba(239,233,254,255);
+}
+.bg-pink {
+    background-color: rgba(255,234,221,255);
+}
+.bg-yellow {
+    background-color: rgba(253,255,208,255);
+}
+.bg-green {
+    background-color: rgba(227,248,238,255);
+}
